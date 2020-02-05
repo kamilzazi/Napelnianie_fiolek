@@ -1,0 +1,41 @@
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 60px;
+    transform: rotate(-10deg);
+}
+.kubek {
+    width: 40px;
+    height: 200px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    background-size: 200% 200%;
+    transition: background-position 500ms;
+}
+.zolta {
+    background-image: linear-gradient(to top, rgba(255, 255, 0, 0.808) 50%, transparent 50%);
+}
+.zielona {
+    background-image: linear-gradient(to top, green 50%, transparent 50%);
+}
+.niebieska {
+    background-image: linear-gradient(to top, blue 50%, transparent 50%);
+}
+.fioletowa {
+    background-image: linear-gradient(to top, violet 50%, transparent 50%);
+}
+.czerwona {
+    background-image: linear-gradient(to top, red 50%, transparent 50%);
+}
+.brazowa {
+    background-image: linear-gradient(to top, brown 50%, transparent 50%);
+}
+.kubki {
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 17% 15% ;
+}
